@@ -328,9 +328,4 @@ void max_heapify(vector<int> &nums, int beg, int end)
 
 堆执行一次调整需要`O(logn)`的时间，在排序过程中需要遍历所有元素执行堆调整，所以最终时间复杂度是`O(nlogn)`。空间复杂度是`O(n)`。
 
-## 0. 参考
 
-- 维基百科
-- [经典排序算法总结与实现](http://wuchong.me/blog/2014/02/09/algorithm-sort-summary/)
-- [堆排序C++实现](http://segmentfault.com/a/1190000002466215)
-- [常见排序算法 - 堆排序 (Heap Sort)](http://bubkoo.com/2014/01/14/sort-algorithm/heap-sort/)
