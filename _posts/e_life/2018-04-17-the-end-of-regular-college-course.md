@@ -3,7 +3,7 @@ layout: post
 title: 本科生涯就要结束了
 category: 生活
 tags: Essay
-keywords: 本科,结束
+keywords: 本科,结束,日记
 description: 大学四年大概就这样交代了吧( ╯□╰ )
 ---
 
