@@ -3,7 +3,7 @@ title: Bytes Book
 layout: post
 ---
 
-One more time One more chance
+要么读书要么旅行，身体和心灵总要有一个在路上。
 
 
 
