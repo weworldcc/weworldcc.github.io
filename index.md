@@ -1,5 +1,5 @@
 ---
-title: Bytes Book
+title: BYTES Book
 layout: post
 ---
 
