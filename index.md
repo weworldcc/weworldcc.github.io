@@ -1,7 +1,7 @@
 ---
-title: Bytes Book -- 记录我那操蛋的人生
+title: Bytes Book
 layout: post
 ---
-![]({{ site.res_url }}/image/0035.jpg)
 
+要么读书要么旅行，身体合心灵总要有一个在路上。
 
