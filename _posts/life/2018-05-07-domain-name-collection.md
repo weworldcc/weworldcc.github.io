@@ -9,7 +9,7 @@ description:
 
 目前我所拥有的域名：
 
-1. byesbook.com
+1. bytesbook.com
 
 2. onesbyte.com
 
