@@ -1,5 +1,5 @@
 ---
-title: BILIBILIx
+title: 哔哩哔哩 X 的博客
 layout: post
 ---
 
