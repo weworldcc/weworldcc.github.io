@@ -4,7 +4,7 @@ email: helloworkwork@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
   黄胜杰的博客
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: https://www.bytesbook.com # the base hostname & protocol for your site
+url: https://www.bilibilix.com # the base hostname & protocol for your site
 res_url: https://static.bytesbook.com
 rss_url: /pages/feed.xml
 author: Huang Shengjie
