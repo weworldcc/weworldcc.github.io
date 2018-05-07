@@ -1,6 +1,6 @@
 ### 我的博客
 
-地址：[https://www.bytesbook.com](https://www.bytesbook.com)
+地址：[https://www.bilibilix.com](https://www.bilibilix.com)
 
 ### 安装说明
 
