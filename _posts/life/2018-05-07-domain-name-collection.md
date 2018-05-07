@@ -9,10 +9,12 @@ description:
 
 目前我所拥有的域名：
 
-1. `bytesbook.com`
+1. `bilibilix.com`
 
-2. `onesbyte.com`
+2. `bytesbook.com`
 
-3. `helloworkwork.com`
+3. `onesbyte.com`
 
-4. `punchnello.com`
+4. `helloworkwork.com`
+
+5. `punchnello.com`
