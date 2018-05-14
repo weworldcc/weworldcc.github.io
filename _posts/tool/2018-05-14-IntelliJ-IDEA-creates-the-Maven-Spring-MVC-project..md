@@ -236,8 +236,8 @@ public class HomeController {
 ```
 ### servlet容器的配置和运行
 
-##### 配置本地的tomcat服务器
-
-##### 配置maven插件
-
+1. 配置本地的tomcat服务器  
+start
+2. 配置maven插件  
+start
 ### 运行第一个Spring MVC应用
