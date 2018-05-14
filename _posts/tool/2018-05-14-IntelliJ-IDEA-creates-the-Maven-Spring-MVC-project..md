@@ -34,9 +34,7 @@ next 填写项目名称，finish即可。
 通过上面的介绍，我们知道对于非 maven 项目我们只要会设置 src 即可。
 （引用自http://wiki.jikexueyuan.com/project/intellij-idea-tutorial/eclipse-java-web-project-introduce.html）
 
-### 配置Maven和SpringMVC
-
-#### 配置Maven的pom.xml
+### 配置Maven的pom.xml
 ```xml
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
@@ -137,7 +135,7 @@ next 填写项目名称，finish即可。
     </build>
 </project>
 ```
-#### 配置web.xml
+### 配置web.xml
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app xmlns="http://java.sun.com/xml/ns/javaee"
@@ -168,7 +166,7 @@ next 填写项目名称，finish即可。
     </servlet-mapping>
 </web-app>
 ```
-#### 配置spring-mvc.xml文件
+### 配置spring-mvc.xml文件
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
