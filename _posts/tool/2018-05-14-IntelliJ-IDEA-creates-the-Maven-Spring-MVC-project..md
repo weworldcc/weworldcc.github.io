@@ -7,7 +7,7 @@ description:
 ---
 
 ### 各软件版本
-* IntelliJ IDEA 2016.1
+* IntelliJ IDEA 2018
 * jdk1.8
 * maven3.0.5
 * tomcat或jetty
