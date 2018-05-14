@@ -168,7 +168,7 @@ next 填写项目名称，finish即可。
     </servlet-mapping>
 </web-app>
 ```
-#### 配置contextConfigLocation文件
+#### 配置spring-mvc.xml文件
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
