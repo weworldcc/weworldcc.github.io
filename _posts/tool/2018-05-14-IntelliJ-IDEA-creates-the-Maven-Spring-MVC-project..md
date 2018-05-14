@@ -23,7 +23,7 @@ description:
 next 填写项目名称，finish即可。
 
 ### 建立相应的目录
-项目创建完成后，src-main下建立java目录后，是无法在该目录下创建新的包和java类等文件的。在idea中需要对目录进行标注。  
+项目创建完成后，src-main下建立java目录后，是无法在该目录下创建新的包和java类等文件的。在idea中需要对目录进行标注。  (右键相应的目录，选择最下方的mark directory as)
 标注完后，建立如下的目录。
 ![]({{site.res_url}}/image/post-4.PNG)
 * Sources 一般用于标注类似 src 这种可编译目录。有时候我们不单单项目的 src 目录要可编译，还有其他一些特别的目录也许我们也要作为可编译的目录，就需要对该目录进行此标注。只有 Sources 这种可编译目录才可以新建 Java 类和包，这一点需要牢记。
