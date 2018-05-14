@@ -14,18 +14,18 @@ description:
 
 ### 利用maven骨架建立一个webapp
 选择create new project-Maven-Create from archetype。找到maven-archetype-webapp这个骨架，然后next。
-![]({{site.res_url}}/image/)
+![]({{site.res_url}}/image/post-1.PNG)
 输入GroupId和ArtifactId后下一步。
-![]({{site.res_url}}/image/)
+![]({{site.res_url}}/image/post-2.PNG)
 填写本地的maven环境，这里可以选择自己本地的环境，也可以用idea自带的maven3.0.5。配置相应的配置文件，idea自带的maven是没有配置文件的，需要单独配置的可以在相应的目录中添加setting.xml文件，例如需要配置jdk版本或者maven mirror的。
-![]({{site.res_url}}/image/)
+![]({{site.res_url}}/image/post-3.PNG)
 由于maven骨架和一些jar需要去maven的仓库下载，所以创建项目的时候速度会非常慢（外国的服务器你懂得），因此我们可以直接访问http://repo1.maven.org/maven2/archetype-catalog.xml，把这个xml下载下来放到本地的maven目录中，然后在添加一个参数archetypeCatalog=internal就可以了。
 next 填写项目名称，finish即可。
 
 ### 建立相应的目录
 项目创建完成后，src-main下建立java目录后，是无法在该目录下创建新的包和java类等文件的。在idea中需要对目录进行标注。  
 标注完后，建立如下的目录。
-![]({{site.res_url}}/image/)
+![]({{site.res_url}}/image/post-4.PNG)
 * Sources 一般用于标注类似 src 这种可编译目录。有时候我们不单单项目的 src 目录要可编译，还有其他一些特别的目录也许我们也要作为可编译的目录，就需要对该目录进行此标注。只有 Sources 这种可编译目录才可以新建 Java 类和包，这一点需要牢记。
 * Tests 一般用于标注可编译的单元测试目录。在规范的 maven 项目结构中，顶级目录是 src，maven 的 src 我们是不会设置为 Sources 的，而是在其子目录 main 目录下的 java 目录，我们会设置为 Sources。而单元测试的目录是 src - test - java，这里的 java 目录我们就会设置为 Tests，表示该目录是作为可编译的单元测试目录。一般这个和后面几个我们都是在 maven 项目下进行配置的，但是我这里还是会先说说。从这一点我们也可以看出 IntelliJ IDEA 对 maven 项目的支持是比较彻底的。
 * Resources 一般用于标注资源文件目录。在 maven 项目下，资源目录是单独划分出来的，其目录为：src - main -resources，这里的 resources 目录我们就会设置为 Resources，表示该目录是作为资源目录。资源目录下的文件是会被编译到输出目录下的。
